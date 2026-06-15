@@ -6,6 +6,9 @@ const Container = styled.div`
   padding: 40px;
   max-width: 500px;
   margin: 0 auto;
+    @media (max-width: 768px) {
+        padding: 20px;
+    }
 `
 
 const Titulo = styled.h1`

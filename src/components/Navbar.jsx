@@ -10,6 +10,11 @@ const Nav = styled.nav`
     border-bottom: 2px solid #ff4500;
     margin: 0;
     width: 100%;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
 `
 
 const Logo = styled.h2`
@@ -29,6 +34,9 @@ const Links = styled.div`
 
     a:hover {
         color: #ff4500;
+    }
+    @media (max-width: 768px) {
+        gap: 16px;
     }
 `
 

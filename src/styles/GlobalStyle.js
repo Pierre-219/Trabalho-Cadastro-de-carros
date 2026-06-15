@@ -21,6 +21,12 @@ const GlobalStyle = createGlobalStyle`
   a:hover {
     color: #ff6a33;
   }
+
+  @media (max-width: 768px) {
+      body {
+          font-size: 14px;
+      }
+  }
 `
 
 export default GlobalStyle
