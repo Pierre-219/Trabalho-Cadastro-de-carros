@@ -22,6 +22,14 @@ Sistema web de cadastro e consulta de veículos desenvolvido como atividade aval
 - Exclusão de veículos
 - Dados persistidos no LocalStorage
 
+# NavBar.jsx
+
+# Home.jsx
+
+# Cadastro.jsx
+
+# Detalhes.jsx e GlobalStyle.js
+
 ## Como Rodar
 
 ```bash
