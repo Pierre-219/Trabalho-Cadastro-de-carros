@@ -21,3 +21,16 @@ Sistema web de cadastro e consulta de veículos desenvolvido como atividade aval
 - Página de detalhes de cada veículo
 - Exclusão de veículos
 - Dados persistidos no LocalStorage
+
+## Como Rodar
+
+```bash
+npm install
+npm run dev
+```
+
+Acesse em `http://localhost:5173`
+
+## Autor
+
+Pierre Bittencourt — [@Pierre-219](https://github.com/Pierre-219)
