@@ -28,6 +28,13 @@ O componente Logo é responsável por exibir o título "Cadastro de Carros" no m
 Por fim, a função Navbar junta todos esses elementos e exibe o menu completo. Ela mostra o título do sistema e dois links: um para a página inicial e outro para a página de cadastro de carros. Dessa forma, o usuário consegue navegar facilmente entre as funcionalidades do sistema.
 
 # Home.jsx
+A página Home é responsável por exibir todos os veículos cadastrados no sistema de forma organizada e visualmente agradável. Ao carregar a página, os dados são recuperados do LocalStorage, garantindo que os veículos permaneçam salvos mesmo após fechar ou atualizar o navegador.
+
+Os veículos são apresentados em cards, contendo informações resumidas como marca, modelo, ano, cor e placa. Cada card possui ações que permitem ao usuário visualizar mais detalhes do veículo ou removê-lo do cadastro.
+
+Para a estilização da página, foram utilizados Styled Components, possibilitando a criação de componentes reutilizáveis e um layout responsivo. Os cards se ajustam automaticamente ao tamanho da tela, proporcionando uma boa experiência tanto em computadores quanto em dispositivos móveis.
+
+Além disso, a página exibe uma mensagem informativa quando não há veículos cadastrados, orientando o usuário a realizar seu primeiro cadastro. Dessa forma, a Home funciona como o painel principal do sistema, centralizando a consulta e o gerenciamento dos veículos registrados.
 
 # Cadastro.jsx
 
