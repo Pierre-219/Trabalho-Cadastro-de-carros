@@ -39,6 +39,20 @@ Além disso, a página exibe uma mensagem informativa quando não há veículos 
 João Vittor Mulinari
 
 # Cadastro.jsx
+Funcionalidades
+Cadastro de veículos com os campos:
+Marca
+Modelo
+Ano
+Cor
+Placa
+Integração com a API da Tabela FIPE para seleção de marcas e modelos.
+Validação dos campos do formulário com exibição de mensagens de erro.
+Exibição dos veículos cadastrados em formato de cards.
+Visualização detalhada das informações de cada veículo.
+Exclusão de veículos cadastrados.
+Persistência dos dados utilizando LocalStorage, mantendo os registros salvos no navegador.
+  Autor# Bruno de Carvalho
 
 # Detalhes.jsx e GlobalStyle.js
 
