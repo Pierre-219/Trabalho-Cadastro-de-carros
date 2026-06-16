@@ -35,6 +35,8 @@ Os veículos são apresentados em cards, contendo informações resumidas como m
 Para a estilização da página, foram utilizados Styled Components, possibilitando a criação de componentes reutilizáveis e um layout responsivo. Os cards se ajustam automaticamente ao tamanho da tela, proporcionando uma boa experiência tanto em computadores quanto em dispositivos móveis.
 
 Além disso, a página exibe uma mensagem informativa quando não há veículos cadastrados, orientando o usuário a realizar seu primeiro cadastro. Dessa forma, a Home funciona como o painel principal do sistema, centralizando a consulta e o gerenciamento dos veículos registrados.
+## Autor
+João Vittor Mulinari
 
 # Cadastro.jsx
 
