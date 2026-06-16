@@ -23,6 +23,9 @@ Sistema web de cadastro e consulta de veículos desenvolvido como atividade aval
 - Dados persistidos no LocalStorage
 
 # NavBar.jsx
+Primeiro, são importadas as bibliotecas necessárias. O Link é usado para trocar de página sem precisar recarregar o site, enquanto o styled-components permite escrever o CSS diretamente dentro do arquivo JavaScript.Em seguida, é criado o componente Nav, que define a aparência da barra de navegação. Ela possui um fundo escuro, um espaçamento interno para deixar os elementos organizados e uma borda laranja na parte inferior. Além disso, foi configurada para se adaptar a telas menores, deixando os itens um abaixo do outro quando o site é acessado pelo celular.
+O componente Logo é responsável por exibir o título "Cadastro de Carros" no menu. O texto aparece em laranja e com um tamanho maior para chamar mais atenção.Já o componente Links organiza os links de navegação. Os links ficam alinhados lado a lado, com cor clara para facilitar a leitura. Quando o usuário passa o mouse sobre eles, a cor muda para laranja, criando um efeito visual simples e agradável.
+Por fim, a função Navbar junta todos esses elementos e exibe o menu completo. Ela mostra o título do sistema e dois links: um para a página inicial e outro para a página de cadastro de carros. Dessa forma, o usuário consegue navegar facilmente entre as funcionalidades do sistema.
 
 # Home.jsx
 
