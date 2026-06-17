@@ -62,15 +62,29 @@ Persistência dos dados utilizando LocalStorage, mantendo os registros salvos no
 
 # Detalhes.jsx e GlobalStyle.js
 
-## Como Rodar
+##  Detalhes.jsx
 
-```bash
-npm install
-npm run dev
-```
+É responsável por criar uma tela que mostra os detalhes de um carro cadastrado no sistema.
+Quando a página é aberta, ele pega o ID do carro que está na URL e procura as informações correspondentes na lista de carros e salva no navegador. Se encontrar o carro, exibe seus dados, como marca, modelo, ano, cor e placa, na tela.
+Caso o carro não seja encontrado, uma mensagem informa isso ao usuário.
 
-Acesse em `http://localhost:5173`
+Além de buscar e exibir as informações, o código também cuida da aparência da página, definindo estilos para o título, o cartão onde os dados são mostrados e o botão de voltar.
+A página é responsiva, se adaptando a diversos tamanhos de tela.
+Além disso, o usuário pode utilizar o botão "Voltar" para retornar à página inicial.
 
-## Autor
+
+  ##GlobalStyle.js
+
+
+É responsável por definir os estilos globais da aplicação utilizando o Styled Components.
+Ele padroniza a aparência de todos os elementos da página, tornando a interface mais organizada.
+
+Inicialmente, o código remove as margens e espaçamentos padrão dos elementos e define o modelo de caixa (`box-sizing`) para facilitar o controle dos tamanhos. 
+Em seguida, configura o visual geral da página, aplicando uma cor de fundo escura, texto claro e a fonte Segoe UI para melhorar a leitura.
+
+Também são definidos os estilos dos links, que aparecem na cor laranja e mudam para um tom mais claro quando o usuário passa o mouse sobre eles. Além disso, o código inclui uma regra de responsividade que reduz o tamanho da fonte em telas menores, proporcionando uma melhor experiência de uso em dispositivos móveis.
+Por fim, os estilos são exportados para que possam ser aplicados em toda a aplicação.
+
+## Autor Antônio Henrique Kviatcovski
 
 Pierre Bittencourt — [@Pierre-219](https://github.com/Pierre-219)
