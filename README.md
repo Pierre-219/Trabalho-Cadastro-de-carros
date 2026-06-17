@@ -72,8 +72,7 @@ Além de buscar e exibir as informações, o código também cuida da aparência
 A página é responsiva, se adaptando a diversos tamanhos de tela.
 Além disso, o usuário pode utilizar o botão "Voltar" para retornar à página inicial.
 
-
-  ##GlobalStyle.js
+##  GlobalStyle.js
 
 
 É responsável por definir os estilos globais da aplicação utilizando o Styled Components.
@@ -85,6 +84,6 @@ Em seguida, configura o visual geral da página, aplicando uma cor de fundo escu
 Também são definidos os estilos dos links, que aparecem na cor laranja e mudam para um tom mais claro quando o usuário passa o mouse sobre eles. Além disso, o código inclui uma regra de responsividade que reduz o tamanho da fonte em telas menores, proporcionando uma melhor experiência de uso em dispositivos móveis.
 Por fim, os estilos são exportados para que possam ser aplicados em toda a aplicação.
 
-## Autor Antônio Henrique Kviatcovski
+#Autor Antônio Henrique Kviatcovski
 
 Pierre Bittencourt — [@Pierre-219](https://github.com/Pierre-219)
