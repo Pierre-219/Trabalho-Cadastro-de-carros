@@ -86,5 +86,5 @@ Por fim, os estilos são exportados para que possam ser aplicados em toda a apli
 
 Autor: Antônio Henrique Kviatcovski
 
-##Autor
+##  Autor
 Pierre Bittencourt — [@Pierre-219](https://github.com/Pierre-219)
